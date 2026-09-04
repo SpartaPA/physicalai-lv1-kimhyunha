@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtle_visualize_record_test_py</name>
+  <version>0.0.0</version>
+  <description>TF broadcaster + Marker + bag + pytest (problem 10)</description>
+  <maintainer email="visualkhh@gmail.com">pa</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>turtlesim</depend>
+  <depend>turtle_interfaces</depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

@@ -1,0 +1,10 @@
+# goal
+uint32 sides
+float32 side_length
+---
+# result
+float32 total_distance
+---
+# feedback
+uint32 completed_sides
+float32 progress

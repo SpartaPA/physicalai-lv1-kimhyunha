@@ -1,0 +1,12 @@
+**/build/
+**/log/
+**/logs/
+/temp/
+/.idea/
+/.junie/
+/.venv/
+**/.venv/
+**/install/
+**/__pycache__/
+**/.ipynb_checkpoints/
+/lv1_module2/.venv/
