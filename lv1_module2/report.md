@@ -330,7 +330,7 @@ pa@pa-Legion-Pro-5-16IAX10:~/workspaces/pa/source/physicalai-lv1-kimhyunha/lv1_m
 2. **Service 요청·응답 로그**
 3. **데드락이 생기는 이유** — executor 관점 3줄 이내 서술
 4. **`rotate_absolute` 피드백 수신 로그** — remaining 이 줄어드는 흐름
-5. **취소 요청 처리 로그** — 취소 시점 각도: `___`
+5. **취소 요청 처리 로그** — 취소 시점 각도
 6. **통신 패턴 설계표** — 기능 / 선택한 모델 / 근거 (5행)
 
 
@@ -386,7 +386,7 @@ Waypoint[] waypoints
 2. **`ros2 node list` 결과** — 동시 실행된 노드
 3. **`ros2 param get` 으로 확인한 주입 값**
 - ros2 param get /state_node publish_rate
-4. **YAML 값 변경 전후 동작 차이**: `___`
+4. **YAML 값 변경 전후 동작 차이**
 5. **네임스페이스 적용 후 `topic list`** (출력)
 
 
