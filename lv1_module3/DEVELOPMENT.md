@@ -9,11 +9,24 @@ source .venv/bin/activate        # 리눅스/macOS
 # .venv\Scripts\activate        # Windows
 ```
 
+# 활성화 상태 확인
+```bash
+python -c "import sys; print(sys.executable)"
+which python
+```
+
+
 # setting and requirements
 ```bash
 pip install ipympl scipy matplotlib pytest jupyterlab ipykernel numpy matplotlib     # 이제 이 방에만 설치됩니다
 pip freeze > requirements.txt    # 설치 목록을 기록 (팀 공유용)
 ```
+
+# or install 
+```bash
+pip install -r requirements.txt
+```
+
 # juppyter kernel 등록
 ```shell
 python -m ipykernel install --user --name=pose_lab --display-name "Python (pose_lab)"
